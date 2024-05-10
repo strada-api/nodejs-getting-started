@@ -11,7 +11,7 @@ app.use(morgan("tiny"));
 app.get("/", (req, res) => {
   res.json({
     path: "/",
-    response: "You've hit the root path!",
+    response: "You've hit the root path - change",
   });
 });
 
